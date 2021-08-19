@@ -5,9 +5,9 @@ def main():
     print("welcome!")
     
 print("Enter your login")
-login = input()
+login = input("Login: ")
 print("Enter password")
-password = input()
+password = input("Password: ")
 
 urll = "https://yourfirebaseyrl.firebaseio.com/"
 da = urll + "Users/" + login + "/.json"
