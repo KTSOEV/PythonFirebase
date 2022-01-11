@@ -9,7 +9,7 @@ login = input("Login: ")
 print("Enter password")
 password = input("Password: ")
 
-urll = "https://yourfirebaseyrl.firebaseio.com/"
+urll = "https://yourfirebaseurl.firebaseio.com/"
 da = urll + "Users/" + login + "/.json"
 g = requests.get(da)
 if g.text == "null":
